@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "imf_agent",
+    "password": "TopSecret@123",
+    "database": "imf_gadgets",
+    "host": "127.0.0.1",
+    "port": 5432,
+    
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "imf_agent",
+    "password": "TopSecret@123",
+    "database": "imf_gadgets_test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "imf_agent",
+    "password": "TopSecret@123",
+    "database": "imf_gadgets_prod",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
